@@ -40,7 +40,7 @@ export const DeliveryPage = () => {
             <Link className="delivery-button delivery-button--light" to="/contact">Contact Us</Link>
           </div>
         </div>
-        <img className="delivery-hero-image" src="/images/delivery-car-carrier.png" alt="Car carrier transporting vehicles on a North Carolina highway" />
+        <img className="delivery-hero-image" src="/images/delivery-car-carrier.webp" alt="Car carrier transporting vehicles on a North Carolina highway" />
       </section>
 
       <section className="delivery-process delivery-wrap" aria-labelledby="delivery-process-title">

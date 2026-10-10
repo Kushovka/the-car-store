@@ -28,7 +28,7 @@ export const Footer = () => (
       <div className="home-footer-main">
         <section className="home-footer-intro" aria-label="The Car Store of Cherryville, Inc">
           <Link to="/" className="home-footer-logo" aria-label="The Car Store of Cherryville home">
-            <img src="/images/car-store-logo-hq.png" alt="The Car Store of Cherryville, Inc." />
+            <img src="/images/car-store-logo-hq.webp" alt="The Car Store of Cherryville, Inc." />
           </Link>
           <p>Locally owned and operated, The Car Store of Cherryville, Inc. is a trusted used car dealership serving Cherryville and the surrounding area with quality pre-owned vehicles and straightforward service.</p>
           <Link to="/inventory" className="home-footer-cta-button" onClick={() => trackContactCta('inventory_click', 'Footer Browse Inventory')}>

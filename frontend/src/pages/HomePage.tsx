@@ -44,7 +44,7 @@ export const HomePage = () => {
     <section className="reference-home-hero" aria-labelledby="home-title">
       <img
         className="reference-home-hero__image"
-        src="/images/cherryville-lot-closeup.png"
+        src="/images/cherryville-lot-closeup.webp"
         alt=""
         fetchPriority="high"
       />
@@ -128,10 +128,10 @@ const DealershipIntro = () => (
         </div>
       </div>
       <div className="dealership-intro__gallery" aria-label="The Car Store dealership and vehicle lot">
-        <img className="dealership-intro__main-photo" src="/images/cherryville-dealership-hero.png" alt="The Car Store dealership and vehicle lot in Cherryville" loading="lazy" />
+        <img className="dealership-intro__main-photo" src="/images/cherryville-dealership-hero.webp" alt="The Car Store dealership and vehicle lot in Cherryville" loading="lazy" />
         <div className="dealership-intro__small-photos">
-          <img className="dealership-intro__lot-photo" src="/images/cherryville-lot-closeup.png" alt="Trucks and SUVs parked at The Car Store" loading="lazy" />
-          <img className="dealership-intro__store-photo" src="/images/cherryville-dealership-exterior.png" alt="The dealership building in Cherryville" loading="lazy" />
+          <img className="dealership-intro__lot-photo" src="/images/cherryville-lot-closeup.webp" alt="Trucks and SUVs parked at The Car Store" loading="lazy" />
+          <img className="dealership-intro__store-photo" src="/images/cherryville-dealership-exterior.webp" alt="The dealership building in Cherryville" loading="lazy" />
         </div>
       </div>
     </div>

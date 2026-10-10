@@ -254,7 +254,7 @@
   .delivery-process h3 { margin-top: 3px; font-size: 20px; }
   .delivery-process-grid p { margin: 8px 0 0; color: #514e49; font-family: var(--font-body),sans-serif; font-size: 15px; line-height: 1.5; }
   .delivery-quote-section { border-bottom: 1px solid #d8d2c8; }
-  .delivery-quote-panel { display: flex; min-height: 330px; align-items: center; padding: 44px max(28px,calc((100% - 1800px) / 2)); background: linear-gradient(90deg,rgba(8,8,8,.76),rgba(8,8,8,.34)),url('/images/delivery-car-carrier.png') center 52%/cover no-repeat; color: white; }
+  .delivery-quote-panel { display: flex; min-height: 330px; align-items: center; padding: 44px max(28px,calc((100% - 1800px) / 2)); background: linear-gradient(90deg,rgba(8,8,8,.76),rgba(8,8,8,.34)),url('/images/delivery-car-carrier.webp') center 52%/cover no-repeat; color: white; }
   .delivery-quote-panel h2 { color: white; font-size: clamp(2rem,3.4vw,2.7rem); }
   .delivery-quote-panel > div > p { max-width: 700px; margin: 0 0 18px; color: #f5f2ed; font-family: var(--font-body),sans-serif; font-size: 16px; line-height: 1.55; }
   .delivery-button--dark { border-color: rgba(255,255,255,.7); color: white; }
@@ -1806,7 +1806,7 @@ a[class*="action"] {
  .delivery-final-cta .delivery-actions { display: grid; grid-template-columns: 1fr 1fr; }
 }
 .delivery-page :is(h1,h2,h3,.delivery-faq-item button,.delivery-button) { text-transform: none!important; letter-spacing: normal; }
-.delivery-final-cta { background-image: linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.56)),url('/images/cherryville-dealership-hero.png'); }
+.delivery-final-cta { background-image: linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.56)),url('/images/cherryville-dealership-hero.webp'); }
 .delivery-button { font-size: 13px; }
 
 /* Match Delivery's scale and spacing to the main site sections. */
@@ -2005,7 +2005,7 @@ a[class*="action"] {
 .about-visit-copy .about-visit-button--secondary:hover { border-color:#a8001d; background:#fff5f6; color:#a8001d; }
 .about-map { display:block; height:165px; overflow:hidden; border-radius:4px; }
 .about-map iframe { width:100%; height:100%; border:0; }
-.about-cta { min-height:112px; justify-content:center; padding:14px 24px; background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.6)),url('/images/cherryville-dealership-hero.png') center 57%/cover no-repeat; text-align:center; }
+.about-cta { min-height:112px; justify-content:center; padding:14px 24px; background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.6)),url('/images/cherryville-dealership-hero.webp') center 57%/cover no-repeat; text-align:center; }
 .about-cta h2 { margin:0 0 3px; font-size:25px; font-weight:700; letter-spacing:-.02em; }
 .about-cta>div>p { margin:0 0 8px; color:#f1f1f1; font-size:11px; }
 .about-cta .about-actions { justify-content:center; margin-top:7px; }
@@ -2296,7 +2296,7 @@ a[class*="action"] {
 .contact-benefit > svg { color:#c90024; font-size:27px; }
 .contact-benefit h3 { margin:0; color:#222; font-family:var(--font-heading),Georgia,serif; font-size:14px; font-weight:700; line-height:1.2; }
 .contact-benefit p { margin:5px 0 0; color:#707479; font-size:11px; line-height:1.35; }
-.contact-bottom-cta { position:relative; display:grid; min-height:132px; place-items:center; overflow:hidden; padding:12px 20px; background:linear-gradient(#111a,#111a),url('/images/cherryville-dealership-exterior.png') center 66%/cover; color:white; text-align:center; }
+.contact-bottom-cta { position:relative; display:grid; min-height:132px; place-items:center; overflow:hidden; padding:12px 20px; background:linear-gradient(#111a,#111a),url('/images/cherryville-dealership-exterior.webp') center 66%/cover; color:white; text-align:center; }
 .contact-bottom-cta-content { max-width:730px; }
 .contact-bottom-cta h2 { margin:0; font-family:var(--font-heading),Georgia,serif; font-size:28px; line-height:1.15; }
 .contact-bottom-cta p { margin:4px auto 10px; font-size:13px; line-height:1.35; }

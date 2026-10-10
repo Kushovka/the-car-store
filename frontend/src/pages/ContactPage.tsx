@@ -36,7 +36,7 @@ export const ContactPage = () => (
             <a href={business.mapsUrl} target="_blank" rel="noreferrer" className="contact-action contact-action-secondary" onClick={() => trackContactCta('directions_click', 'Contact Page Directions')}><FaMapMarkerAlt aria-hidden="true" /> Get Directions</a>
           </div>
         </div>
-        <img className="contact-hero-image" src="/images/cherryville-dealership-hero.png" alt="The Car Store of Cherryville dealership and vehicle lot" />
+        <img className="contact-hero-image" src="/images/cherryville-dealership-hero.webp" alt="The Car Store of Cherryville dealership and vehicle lot" />
       </div>
     </section>
 

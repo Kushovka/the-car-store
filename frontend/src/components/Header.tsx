@@ -165,7 +165,7 @@ export const Header = () => {
           className="flex min-w-0 items-center focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-[var(--color-accent)]"
           onClick={() => setOpen(false)}
         >
-          {isHomePage ? <img className="reference-dealer-logo" src="/images/car-store-logo-hq.png" alt={business.name} /> : <span className="max-w-[190px] text-lg font-black uppercase leading-[0.95] tracking-tight text-[var(--color-primary)] sm:text-xl 2xl:max-w-[245px] 2xl:text-2xl">The Car Store <span className="block text-sm font-bold tracking-[0.16em] text-[var(--color-accent)]">of Cherryville</span></span>}
+          {isHomePage ? <img className="reference-dealer-logo" src="/images/car-store-logo-hq.webp" alt={business.name} /> : <span className="max-w-[190px] text-lg font-black uppercase leading-[0.95] tracking-tight text-[var(--color-primary)] sm:text-xl 2xl:max-w-[245px] 2xl:text-2xl">The Car Store <span className="block text-sm font-bold tracking-[0.16em] text-[var(--color-accent)]">of Cherryville</span></span>}
         </Link>
 
         {!isHomePage ? <div className="hidden min-w-0 2xl:flex 2xl:justify-center"><HeaderSearch /></div> : null}

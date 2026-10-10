@@ -12,9 +12,9 @@ const reasons = [
 ]
 
 const expectations = [
-  { image: '/images/cherryville-dealership-hero.png', title: 'Carefully Selected Inventory', text: 'We hand-pick our vehicles from trusted sources and inspect them for quality and reliability, so you can shop with confidence.' },
-  { image: '/images/cherryville-dealership-exterior.png', title: 'Honest Communication', text: 'We believe in clear, upfront information and straight answers. Our team will always be honest about our vehicles and the buying process.' },
-  { image: '/images/cherryville-lot-closeup.png', title: 'Help Every Step of the Way', text: "From browsing and test drives to financing and after your purchase, we're here to answer your questions and make the process as easy as possible." },
+  { image: '/images/cherryville-dealership-hero.webp', title: 'Carefully Selected Inventory', text: 'We hand-pick our vehicles from trusted sources and inspect them for quality and reliability, so you can shop with confidence.' },
+  { image: '/images/cherryville-dealership-exterior.webp', title: 'Honest Communication', text: 'We believe in clear, upfront information and straight answers. Our team will always be honest about our vehicles and the buying process.' },
+  { image: '/images/cherryville-lot-closeup.webp', title: 'Help Every Step of the Way', text: "From browsing and test drives to financing and after your purchase, we're here to answer your questions and make the process as easy as possible." },
 ]
 
 export const AboutPage = () => (
@@ -31,7 +31,7 @@ export const AboutPage = () => (
           <a className="about-button about-button--outline-red" href={business.mapsUrl} target="_blank" rel="noreferrer"><FaMapMarkerAlt /> Get Directions</a>
         </div>
       </div>
-      <img className="about-hero-image" src="/images/cherryville-dealership-hero.png" alt="The Car Store dealership and vehicle lot in Cherryville" />
+      <img className="about-hero-image" src="/images/cherryville-dealership-hero.webp" alt="The Car Store dealership and vehicle lot in Cherryville" />
     </section>
 
     <section className="about-reasons">
@@ -44,7 +44,7 @@ export const AboutPage = () => (
     </section>
 
     <section className="about-story">
-      <img src="/images/cherryville-dealership-exterior.png" alt="Vehicles outside The Car Store of Cherryville" />
+      <img src="/images/cherryville-dealership-exterior.webp" alt="Vehicles outside The Car Store of Cherryville" />
       <div className="about-story-copy">
         <h2>A Local Dealership<br />You Can Count On</h2><span className="about-rule" />
         <p>For years, The Car Store of Cherryville, Inc. has been helping drivers in Cherryville, Lincolnton, Gastonia, Shelby and the surrounding areas find quality, dependable used vehicles. As a locally owned and operated dealership, we take pride in building long-term relationships with our customers.</p>
